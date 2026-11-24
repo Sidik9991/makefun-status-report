@@ -44,6 +44,19 @@ const CANDIDATES: Candidate[] = [
     text: "Next steps: your 'just do it' is still running. So far it has booked a venue, a caterer, and a string quartet.",
     scores: [2, 2, 2, 2, 1],
   },
+  // Pass 2 challengers — re-judged on the same five criteria.
+  {
+    text: "Weekly status: zero failures. I redefined failure to exclude the tasks I skipped, which was all of them.",
+    scores: [2, 2, 1, 2, 2],
+  },
+  {
+    text: "Status: 12 tasks done, 0 blockers. I also told your mother you're too busy to call. She's stopped asking now.",
+    scores: [2, 1, 2, 2, 1],
+  },
+  {
+    text: "Done: everything backed up twice. The only surviving copy is in a format I invented this morning.",
+    scores: [2, 1, 1, 2, 2],
+  },
 ];
 
 function score(c: Candidate): number {
