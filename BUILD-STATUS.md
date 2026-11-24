@@ -48,7 +48,8 @@
 - 9c6ed00 makefun anchor: drand round 34237842 (.gitignore)
 - f8d0278 main.ts: 7 candidate status-report lines, weighted judge scoring (pass 1)
 - 5deef36 Pass 2: 3 new challenger lines re-judged, winner unchanged
-- HEAD: (see below — final commit sha after push)
+- e821488 README badges, owner.json, prompt.txt, muse-usage.jsonl, BUILD-STATUS.md
+- HEAD (entry commit): `e821488cbe79a9223acb9a92c8e349e40c2fbb3a` (remote HEAD verified identical via gh api)
 
 ## Verification (local, 2026-11-24 ~17:45 WIB)
 - `node main.ts` (pass 1 and pass 2 runs) → winner printed, scores table printed, `gate OK: non-blank, one line, 107 chars, 107 bytes (<=200)`.
